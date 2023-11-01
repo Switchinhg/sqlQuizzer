@@ -1,3 +1,30 @@
+.wrapper {
+  height: 100vh;
+  background: linear-gradient(322deg, rgb(0, 171, 231) 0%, rgb(0, 157, 212) 30%, rgb(0, 142, 192) 48%, rgb(0, 129, 175) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.startgame button {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: solid 1px black;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px black;
+  transition-duration: 0.5s;
+}
+.startgame button:hover {
+  box-shadow: none;
+}
+
+.dispose {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+}
+
 * {
   margin: 0;
   padding: 0;

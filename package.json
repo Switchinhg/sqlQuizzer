@@ -12,9 +12,11 @@
     "watch-css": "nodemon -e scss -x \"npm run start\""
   },
   "dependencies": {
+    "firebase": "^10.5.0",
     "nodemon": "^3.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0",
     "sass": "^1.69.3"
   },
   "devDependencies": {

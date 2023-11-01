@@ -1,0 +1,13 @@
+.startgame{
+    button{
+        padding: 0.5rem 1rem;
+        background-color: white;
+        border: solid 1px black;
+        cursor: pointer;
+        box-shadow: 3px 3px 10px black;
+        transition-duration: .5s;
+        &:hover{
+            box-shadow: none;
+        }
+    }
+}
